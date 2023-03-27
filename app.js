@@ -396,6 +396,94 @@
 // }
 
 // -------------------------------*CHAPTER 12-13 QUESTIONS*----------------------------------------
+// --------------------------------QUESION NO 1:-----------------------------------------------
+// var ask = prompt("ENTER A NUMBER OR A STRING")
+// var ok =ask.charCodeAt()
+// console.log(ok)
+// if(ok >90 && ok <=122 ){
+//     alert("IT IS A LOWERCASE CHARACTER")
+// }
+// else if (ok >=65&& ok<=90)(
+//     alert("IT IS A UPPERCASE CHARACTER")
+// )
+// else if(ok >=48 && ok <=57){
+//     alert("IT IS A NUMBER")
+// }
+// --------------------------------QUESION NO 2:-----------------------------------------------
+// var ask1 = prompt("ENTER FIRST INTEGER")
+// var ask2 = prompt("ENTER SECOND INTEGER")
+// if(ask1>ask2){
+//     alert(ask1 + " IS THE GREATER INTEGER")
+// }
+// else if (ask2>ask1){
+//     alert(ask2 +" IS THE GREATER INTEGER")
+// }
+// else if( ask1 = ask2){
+//     alert("THEY BOTH ARE EQUAL")
+// }
+// --------------------------------QUESION NO 3:-----------------------------------------------
+// var ask = prompt("ENTER A NUMBER")
+// if (ask >0){
+//     alert("THE NUMBER IS POSITIVE")
+// }
+// else if (ask <0){
+//     alert("THE NUMBER IS NEGATIVE")
+// }
+// else if (ask==0){
+//     alert("THE NUMBER IS ZERO 0")
+// }
+// 
+// --------------------------------QUESION NO 4:-----------------------------------------------
+
+// var ask = prompt("ENTER A CHARACTER").toLowerCase()
+// var vowels=("aeiou")
+// if(ask === "a"||ask =="e"||ask ==="i"||ask ==="o"||ask ==="u"){
+//     alert("TRUE")
+// }
+// else{
+//     alert("FALSE")
+// }
+// --------------------------------QUESION NO 5:-----------------------------------------------
+// var correctPassword = ("ZAEEMBADAR")
+// var enter = prompt("ENTER YOUR PASSWORD")
+// if (enter===correctPassword){
+//     alert("THE PASSWORD IS CORRECT")
+// }
+// else if(enter ==="" ){
+//     alert("PLEASE ENTER YOUR PASSWORD")
+// }
+// else{
+//    alert("INCORRECT PASSWORD")
+// }
+// --------------------------------QUESION NO 6:-----------------------------------------------
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// alert(greeting)}
+// else{   
+// greeting = "Good evening";
+// alert(greeting)
+// }
+    // --------------------------------QUESION NO 7:-----------------------------------------------
+// var time = +prompt("ENTER ANY TIME IN MILITARY TIMG FORM LIKE : 1900= 7PM")
+// if (time >=0000 && time <1200){
+//     alert("GOOD MORNING")
+// }
+// else if (time >=1200 && time < 1700){
+//     alert("GOOD AFTERNOON")
+// }
+// else if(time >=1700 && time <2100){
+//     alert("GOOD EVENING")
+// }
+// else if (time >=2100 && time <=2359){
+//     alert("GOOD NIGHT")
+// }
+
+
+
+
 // -------------------------------*CHAPTER 14-16 QUESTIONS*----------------------------------------
  
 // --------------------------------QUESION NO 1:-----------------------------------------------
@@ -529,15 +617,18 @@
 //     console.log(i+"k")
 // }
 // --------------------------------QUESION NO 7:-----------------------------------------------
-// var ask = prompt("WHAT WOULD YOU LIKE TO HAVE?")
+// var ask = prompt("WHAT WOULD YOU LIKE TO HAVE?").toLowerCase()
 // var bakery =["cake", "applepie","cookie","rusk","chips","patties"]
-// var indexof=(ask)
-// if(ask[""]=bakery){
-//     alert(ask + " is available at index " +bakery.indexOf(ask) +" at our bakery" )
+// var position =bakery.indexOf(ask)
+// if(position!==-1){
+//     alert(ask + " is available at index " +position +" at our bakery" )
 // }
-// else if(indexof<0) {
-//     alert(ask +" is not available at our bakery" )
+// else{
+//     alert("WE ARE SORRY " + ask + " IS NOT AVAILABALE AT OUR BAKERY ")
 // }
+
+    
+
 // --------------------------------QUESION NO 8:-----------------------------------------------
 // var arr =[24,53,91,12,78]
 // var sorted = arr.sort()
